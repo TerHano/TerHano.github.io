@@ -61,7 +61,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     border-top: 2px black solid;
     border-bottom: 2px black solid;
     background-color:#2C3A47;
-    height: 32%;
+    height: 18vw;
     overflow: auto;
 
 }
@@ -142,7 +142,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
 
 
 .title{
-    top: 35%;
+    top: 40%;
     position: relative;
     display: inline-block;
     font-weight: bold;
@@ -165,14 +165,14 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     margin-top: 0;
     margin-bottom: 1px;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-weight: bold;
 }
 .Job h4{
     position: relative;
     color: orange;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.5vw;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: bold;
