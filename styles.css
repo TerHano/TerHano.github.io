@@ -146,7 +146,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     position: relative;
     display: inline-block;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 2vw;
     width: 25%;
 }
 .layer2 h2{
@@ -165,19 +165,21 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     margin-top: 0;
     margin-bottom: 1px;
     text-align: center;
-    font-size: 3vh;
+    font-size: 1.5vw;
+    font-weight: bold;
 }
 .Job h4{
     position: relative;
     color: orange;
     text-align: center;
-    font-size: 2vh;
+    font-size: 1vw;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: bold;
 }
 ul li{
     padding: 2px 0;
-    font-size: 2vh;
+    font-size: 1.2vw;
 }
 ul{
     margin-top: 5px;
@@ -216,11 +218,11 @@ and (max-device-width : 965px) {
         text-align: center;
     }
     .Nav{
-        font-size: 4.5vw;
+        font-size: 3vw;
     }
     #logo{
         float: left;
-        font-size: 5vw;
+        font-size: 4vw;
     }
     #mac{
         display: inline-block;
@@ -251,7 +253,7 @@ and (max-device-width : 965px) {
     #aboutme{
         display: block;
         width: 100%;
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
     .layer1{
         height: auto;
@@ -259,11 +261,23 @@ and (max-device-width : 965px) {
     .layer2{
         height: auto;
     }
+    .title{
+        font-size: 3.5vw;
+    }
     .Job{
         text-align: center;
         float: left;
         width: 100%;
         display: block;
+    }
+    .Job h3{
+        font-size: 4vw;
+    }
+    .Job h4{
+        font-size: 2.5vw;
+    }
+    .Job ul li{
+        font-size: 3vw;
     }
     .title{
         display: inline-block;
