@@ -177,6 +177,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
 }
 ul li{
     padding: 2px 0;
+    font-size: 2vh;
 }
 ul{
     margin-top: 5px;
