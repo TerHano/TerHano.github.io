@@ -49,7 +49,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     color: white;
     padding: 0 2% 1%;
     width: 96%;
-    height: 31%;
+    height: 16vw;
     overflow: hidden;
 }
 .layer2{
@@ -62,7 +62,6 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     border-bottom: 2px black solid;
     background-color:#2C3A47;
     height: 18vw;
-    overflow: auto;
 
 }
 .layer3{
@@ -77,13 +76,13 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
 }
 .layer3 h1, .layer3 h2{
     opacity: 0;
-    animation: fademove 1s 1.2s ease-in-out forwards;
+    animation: fademove 1s .7s ease-in-out forwards;
 }
 #aboutme{
     margin-top: 5px;
     width: 33%;
     position: relative;
-    font-size: 2.5vh;
+    font-size: 1.5vw;
     display: inline-block;
     float: right;
     animation: fadeleft .5s ease-in-out;
@@ -97,7 +96,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     position: relative;
     float: left;
     display: inline-block;
-    font-size: 5vh;
+    font-size: 3vw;
     font-weight: bold;
     top: 30%;
     width: 36%;
@@ -125,7 +124,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
 
 #mac{
     display: inline-block;
-    width: 45vh;
+    width: 25vw;
     height: auto;
     opacity: 0;
     animation: fademove .5s ease-in-out;
@@ -136,7 +135,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     left:  29.5%;
     position: absolute;
     height: auto;
-    width: 18vh;
+    width: 10vw;
     animation: logofade .75s ease-in-out, wiggle 2s infinite;
 }
 
@@ -159,7 +158,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     position: relative;
     display: inline-block;
     width: 25%;
-    animation: fadeleft .5s .5s ease-in-out forwards;
+    animation: fadeleft .5s .3s ease-in-out forwards;
 }
 .Job h3{
     margin-top: 0;
@@ -187,8 +186,8 @@ ul{
 
 
 @keyframes fademove {
-from {top:-20px; opacity: 0;}
-to {top:0px; opacity: 1;}
+from {transform: translateY(-10px); opacity: 0;}
+to {transform: translateY(0px); opacity: 1;}
 }
 @keyframes logofade {
     0% {opacity: 0;}
@@ -197,8 +196,8 @@ to {top:0px; opacity: 1;}
 }
 
 @keyframes fadeleft {
-    from {left: 50px; opacity: 0;}
-    to {left: 0px; opacity: 1;}
+    from {transform: translate(50px); opacity: 0;}
+    to {transform: translate(0px); opacity: 1;}
 }
 @keyframes wiggle {
     0% { transform: rotate(0deg); }
