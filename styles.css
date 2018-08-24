@@ -85,7 +85,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     font-size: 1.5vw;
     display: inline-block;
     float: right;
-    animation: fadeleft .5s ease-in-out;
+    animation: fadeleft .5s ease-out;
 }
 
 .layer3 span{
@@ -127,7 +127,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     width: 25vw;
     height: auto;
     opacity: 0;
-    animation: fademove .5s ease-in-out;
+    animation: fademove .5s ease-out;
     animation-fill-mode: forwards;
 }
 #GitHub {
@@ -158,7 +158,7 @@ a, a:visited, a:link, a:hover, a:active { text-decoration: none; color: white;}
     position: relative;
     display: inline-block;
     width: 25%;
-    animation: fadeleft .5s .3s ease-in-out forwards;
+    animation: fadeleft .5s .3s ease-out forwards;
 }
 .Job h3{
     margin-top: 0;
