@@ -3054,6 +3054,10 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
+.footer-link:hover{
+    color: #862121;
+}
+
 .s-contact .overlay {
     position: absolute;
     top: 0;
