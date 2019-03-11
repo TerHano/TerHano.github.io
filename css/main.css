@@ -1684,7 +1684,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         top: 0;
         left: 0;
         background-color: #000000;
-        padding: 120px 40px 21px;
+        padding: 90px 40px 21px;
     }
     .header-nav-wrap .header-nav {
         display: block;
