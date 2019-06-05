@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if lt IE 9 ]>
+<html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
@@ -38,404 +40,430 @@
 
 <body id="top">
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
+<!-- header
+================================================== -->
+<header class="s-header">
 
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">th.</a>
+    <div class="header-logo">
+        <a class="site-logo" href="index.html">th.</a>
+    </div>
+
+    <nav class="header-nav-wrap">
+        <ul class="header-nav">
+            <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+            <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+            <li><a class="smoothscroll" href="#works" title="works">Works</a></li>
+            <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+</header> <!-- end s-header -->
+
+
+<!-- home
+================================================== -->
+<section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/bg.jpeg"
+         data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+    <div class="overlay"></div>
+    <div class="shadow-overlay"></div>
+
+    <div class="home-content">
+
+        <div class="row home-content__main">
+
+            <h3>Hello There</h3>
+
+            <h1>
+                My name is Terry.<br>
+                I am a Developer & Student <br>
+                based in New Jersey.
+            </h1>
+
+            <div class="home-content__buttons">
+                <a href="#works" class="smoothscroll btn btn--stroke">
+                    Latest Projects
+                </a>
+                <a href="#about" class="smoothscroll btn btn--stroke">
+                    More About Me
+                </a>
+            </div>
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
         </div>
 
-        <nav class="header-nav-wrap">
-            <ul class="header-nav">
-                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-            </ul>
-        </nav>
+    </div> <!-- end home-content -->
 
-        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+    <ul class="home-social">
+<!--        <li>-->
+<!--            <a href="#"><i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>-->
+<!--        </li>-->
+        <li>
+            <a href="https://github.com/TerHano"><i class="im im-github" aria-hidden="true"></i><span>Github</span></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/terry-hanoman-90039b119"><i class="im im-linkedin"
+                                                                             aria-hidden="true"></i><span>LinkedIn</span></a>
+        </li>
+    </ul>
+    <!-- end home-social -->
 
-    </header> <!-- end s-header -->
-
-
-   <!-- home
-   ================================================== -->
-   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/bg.jpeg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-
-                <h3>Hello There</h3>
-
-                <h1>
-                    My name is Terry.<br>
-                    I am a Developer & Student <br>
-                    based in New Jersey.
-                </h1>
-
-                <div class="home-content__buttons">
-                    <a href="#works" class="smoothscroll btn btn--stroke">
-                        Latest Projects
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Me
-                    </a>
-                </div>
-
-                <div class="home-content__scroll">
-                    <a href="#about" class="scroll-link smoothscroll">
-                        <span>Scroll Down</span>
-                    </a>
-                </div>
-
-            </div>
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-social">
-            <li>
-                <a href="#"><i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="https://github.com/TerHano"><i class="im im-github" aria-hidden="true"></i><span>Github</span></a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/terry-hanoman-90039b119"><i class="im im-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
-            </li>
-        </ul> 
-        <!-- end home-social -->
-
-    </section> <!-- end s-home -->
+</section> <!-- end s-home -->
 
 
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-        
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full text-center">
-                <h3>About</h3>
-                <h1>Short and Simple</h1>
-                <p class="lead">My name is Terry Hanoman, a senior currently attending Rutgers University and pursuing a BS degree in Computer Science with a minor in Mathematics.</p>
-            </div>
+<!-- about
+================================================== -->
+<section id="about" class="s-about target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full text-center">
+            <h3>About</h3>
+            <h1>Short and Simple</h1>
+            <p class="lead">My name is Terry Hanoman, a recent graduate from Rutgers University with a Bachelor of
+                Science degree in Computer Science with a minor in Mathematics.</p>
+        </div>
+    </div>
+
+    <div class="row about-content">
+
+        <div class="col-six tab-full left">
+            <h3>Some more about me!</h3>
+
+            <p>I have experience as a Computer Technician in which communication is key when
+                working with individuals in order to gauge the type of problems their having
+                and choosing the best course of action. I have also interned as a game developer
+                at a Virtual Reality company which has given me experience working in an office
+                environment. The programming assignments that I have completed in school center around
+                creating solutions that adhere to a very strict set of instructions so that my programs
+                do exactly what they are asked to while also handling edge cases. I use Gitlab in order
+                to commit my work and collaborate with others. I am very passionate about programming and
+                won’t stop thinking about a problem until it has been solved. I believe communication to
+                be a key part of developing great software.
+            </p>
+
         </div>
 
-        <div class="row about-content">
+        <div class="col-six tab-full right">
+            <h3>My Skills!</h3>
 
-            <div class="col-six tab-full left">
-                <h3>Some more about me!</h3>
-
-                <p>I have experience as a Computer Technician in which communication is key when working with individuals in order to gauge the type of problems their having and choosing the best course of action. I have also interned as a developer in a Virtual Reality company which has given me experience working in an office environment. The programming assignments that I have completed in school center around creating solutions that adhere to a very strict set of instructions so that my programs do exactly what they are asked to. I also have experience working with others and pushing code with Gitlab. I am very passionate about programming and won’t stop thinking about a problem until it has been solved. I believe communication to be a key part of developing great software.</p>
-
-            </div>
-
-            <div class="col-six tab-full right">
-                <h3>My Skills!</h3>
-
-                <ul class="skill-bars">
-                    <li>
+            <ul class="skill-bars">
+                <li>
                     <div class="progress percent90"><span>90%</span></div>
                     <strong>Java</strong>
-                    </li>
-                    <li>
+                </li>
+                <li>
                     <div class="progress percent85"><span>85%</span></div>
                     <strong>Python</strong>
-                    </li>
-                    <li>
+                </li>
+                <li>
                     <div class="progress percent70"><span>70%</span></div>
                     <strong>C</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent75"><span>75%</span></div>
-                        <strong>SQL</strong>
-                    </li>
-                    <li>
+                </li>
+                <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>SQL</strong>
+                </li>
+                <li>
                     <div class="progress percent60"><span>60%</span></div>
                     <strong>HTML</strong>
-                    </li>
-                    <!--<li>-->
-                    <!--<div class="progress percent75"><span>75%</span></div>-->
-                    <!--<strong>Wordpress</strong>-->
-                    <!--</li>   -->
-                    <!--<li>-->
-                    <!--<div class="progress percent90"><span>90%</span></div>-->
-                    <!--<strong>Angular JS</strong>-->
-                    <!--</li>   -->
-                </ul>
-            </div>
-
-        </div> <!-- end about-content -->
-
-        <div class="row about-content about-content--buttons">
-
-            <div class="col-six tab-full left">
-                <a href="documents/Terry_Hanoman_Resume__V2.pdf" class="btn btn--primary full-width">Download My CV</a>
-            </div>
-            <div class="col-six tab-full right">
-                <a href="https://www.linkedin.com/in/terry-hanoman-90039b119" class="btn btn--stroke full-width">Hire Me Now</a>
-            </div>
-
-        </div> <!-- end about-content buttons -->
-
-        <div class="row about-content about-content--timeline">
-
-            <div class="col-full text-center">
-                <h3>My Work Experience.</h3>
-            </div>
-
-            <div class="col-six tab-full left">
-                <div class="timeline">
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">June 2018 - August 2018</p>
-                            <h3>High 5 Games</h3>
-                            <h5>Software Engineer Intern</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <ul>
-                                <li>Contributed to Java Web Applications that managed player accounts and developed tools that aided different departments such as customer service</li>
-                                <li>Developed an original social slot machine game from the ground up using Unity</li>
-                                <li>Wrote dynamic code that evaluated "Ways" pay lines</li>
-                            </ul>
-
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">January 2017 - May 2018</p>
-                            <h3>Rutgers University</h3>
-                            <h5>Computer Support Technician</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <ul>
-                                <li>Install and troubleshoot more than 100 software and hardware issues</li>
-                                <li>Re-image computers with the appropriate programs necessary for clients</li>
-                                <li>Travel to classrooms and offices to fix technical issues professors and students have with their computers,
-                                    projectors, and other IT devices</li>
-                            </ul>
-
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                </div> <!-- end timeline -->
-            </div> <!-- end left -->
-
-            <div class="col-six tab-full right">
-                <div class="timeline">
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">January 2017 - May 2017</p>
-                            <h3>Arcane Reality</h3>
-                            <h5>Game Developer</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <ul>
-                                <li>Designed and developed virtual reality games using Unity</li>
-                                <li>Coded game scripts for more than 10 gaming scenarios using JavaScript</li>
-                                <li>Tested and debugged games to make sure they are functioning properly for client demos</li>
-                                <li>Showcased virtual reality games to individuals unfamiliar with the technology</li>
-                            </ul>
-
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">January 2016 - May 2016</p>
-                            <h3>New Jersey Gear up</h3>
-                            <h5>Counselor</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <ul>
-                                <li>Helped educate children and young adults about the benefits and opportunities college has to offer</li>
-                                <li>Cooperated with other counselors on brainstorming field-trips and activities to keep children motivated</li>
-                                <li>Volunteered at local public schools</li>
-                            </ul>
-
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                </div> <!-- end timeline -->
-            </div> <!-- end right -->
-
-        </div> <!-- end about-content timeline -->
-
-    </section> <!-- end about -->
-    
-
-    <!-- works
-    ================================================== -->
-    <section id="works" class="s-works target-section">
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h3>Personal Projects</h3>
-                <h1>See My Latest Projects.</h1>
-                
-                <p class="lead">Im always working on new projects, be sure to come back and check!</p>
-            </div>
+                </li>
+                <!--<li>-->
+                <!--<div class="progress percent75"><span>75%</span></div>-->
+                <!--<strong>Wordpress</strong>-->
+                <!--</li>   -->
+                <!--<li>-->
+                <!--<div class="progress percent90"><span>90%</span></div>-->
+                <!--<strong>Angular JS</strong>-->
+                <!--</li>   -->
+            </ul>
         </div>
 
-        <div class="row masonry-wrap">
-            <div class="masonry">
+    </div> <!-- end about-content -->
 
-                <div class="masonry__brick">
-                    <div class="item-folio">
+    <div class="row about-content about-content--buttons">
 
-                        <div class="item-folio__thumb" style="height: 230px">
-                            <a href="https://numericalsite.herokuapp.com/" title="Numerical Site" data-size="1050x700">
-                                <img src="images/projects/vertigo.svg"
-                                     alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <div class="item-folio__caption">
-                                <h3>Finds Roots!</h3>
-                            </div>
-                            <h3 class="item-folio__title">
-                                Root Finder
-                            </h3>
-                            <p class="item-folio__cat">
-                                Python - Django
-                            </p>
-                        </div>
-
-
-                    </div>
-
-                    <!-- end item-folio -->
-                </div>
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb" style="height: 230px">
-                            <a href="https://whatsmygrade.herokuapp.com/" title="Whats My Grade" data-size="1050x700">
-                                <img src="images/projects/gradeapp.jpg"
-                                     alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <div class="item-folio__caption">
-                                <h3>What's My Grade!</h3>
-                            </div>
-                            <h3 class="item-folio__title">
-                                Grade/GPA Calculator!
-                            </h3>
-                            <p class="item-folio__cat">
-                                Java - Spring Boot
-                            </p>
-                        </div>
-
-
-                    </div>
-                </div><!-- end masonry__brick -->
-
-
-            </div>
-        </div> <!-- end masonry -->
-
-    </section> <!-- end works -->
-
-
-
-    <!-- testimonials
-    ================================================== -->
-
-
-
-    <!-- blog
-    ================================================== -->
-
-
-    <!-- s-cta
-    ================================================== -->
-
-
-    <!-- s-stats
-    ================================================== -->
-    <section id="stats" class="s-stats">
-        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
-
-            <div style="background-color: white" class="col-block stats__col ">
-                <div class="stats__count">
-                    17520
-                </div>
-                <h4>Hours Coding</h4>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">
-                    1000
-                </div>
-                <h4>Cups of Coffee</h4>
-            </div>
-            <div class="col-block stats__col stats__col--highlight">
-                <div class="stats__upsign">
-                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
-                </div>
-                <div class="stats__count">
-                    35
-                </div>
-                <h4>Courses Completed</h4>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">
-                    56
-                </div>
-                <h4>Books Read</h4>
-            </div>
-
+        <div class="col-six tab-full left">
+            <a href="documents/Terry_Hanoman_Resume.pdf" class="btn btn--primary full-width">Download My CV</a>
         </div>
-    </section> <!-- end s-stats -->
-
-
-    <!-- s-stats
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-
-        <div class="overlay"></div>
-
-        <div class="row narrow section-intro">
-            <div class="col-full">
-                <h3>Contact</h3>
-                <h1>Interested in learning more? Say Hello!</h1>
-                
-                <p class="lead">If you have any questions, feel free to contact me using the form below.</p>
-            </div>
+        <div class="col-six tab-full right">
+            <a href="https://www.linkedin.com/in/terry-hanoman-90039b119" class="btn btn--stroke full-width">Hire Me
+                Now</a>
         </div>
 
-        <div class="row contact__main">
-            <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="POST" action="https://formspree.io/terry.hanoman@gmail.com">
-                    <fieldset>
-    
+    </div> <!-- end about-content buttons -->
+
+    <div class="row about-content about-content--timeline">
+
+        <div class="col-full text-center">
+            <h3>My Work Experience.</h3>
+        </div>
+
+        <div class="col-six tab-full left">
+            <div class="timeline">
+
+                <div class="timeline__block">
+                    <div class="timeline__bullet"></div>
+                    <div class="timeline__header">
+                        <p class="timeline__timeframe">June 2018 - August 2018</p>
+                        <h3>High 5 Games</h3>
+                        <h5>Software Engineer Intern</h5>
+                    </div>
+                    <div class="timeline__desc">
+                        <ul>
+                            <li>Contributed to Java Web Applications that managed player accounts and developed tools
+                                that aided different departments such as customer service
+                            </li>
+                            <li>Developed an original social slot machine game from the ground up using Unity</li>
+                            <li>Wrote dynamic code that evaluated "Ways" pay lines</li>
+                        </ul>
+
+                    </div>
+                </div> <!-- end timeline__block -->
+
+                <div class="timeline__block">
+                    <div class="timeline__bullet"></div>
+                    <div class="timeline__header">
+                        <p class="timeline__timeframe">January 2017 - May 2018</p>
+                        <h3>Rutgers University</h3>
+                        <h5>Computer Support Technician</h5>
+                    </div>
+                    <div class="timeline__desc">
+                        <ul>
+                            <li>Install and troubleshoot more than 100 software and hardware issues</li>
+                            <li>Re-image computers with the appropriate programs necessary for clients</li>
+                            <li>Travel to classrooms and offices to fix technical issues professors and students have
+                                with their computers,
+                                projectors, and other IT devices
+                            </li>
+                        </ul>
+
+                    </div>
+                </div> <!-- end timeline__block -->
+
+            </div> <!-- end timeline -->
+        </div> <!-- end left -->
+
+        <div class="col-six tab-full right">
+            <div class="timeline">
+
+                <div class="timeline__block">
+                    <div class="timeline__bullet"></div>
+                    <div class="timeline__header">
+                        <p class="timeline__timeframe">January 2017 - May 2017</p>
+                        <h3>Arcane Reality</h3>
+                        <h5>Game Developer</h5>
+                    </div>
+                    <div class="timeline__desc">
+                        <ul>
+                            <li>Designed and developed virtual reality games using Unity</li>
+                            <li>Coded game scripts for more than 10 gaming scenarios using JavaScript</li>
+                            <li>Tested and debugged games to make sure they are functioning properly for client demos
+                            </li>
+                            <li>Showcased virtual reality games to individuals unfamiliar with the technology</li>
+                        </ul>
+
+                    </div>
+                </div> <!-- end timeline__block -->
+
+                <div class="timeline__block">
+                    <div class="timeline__bullet"></div>
+                    <div class="timeline__header">
+                        <p class="timeline__timeframe">January 2016 - May 2016</p>
+                        <h3>New Jersey Gear up</h3>
+                        <h5>Counselor</h5>
+                    </div>
+                    <div class="timeline__desc">
+                        <ul>
+                            <li>Helped educate children and young adults about the benefits and opportunities college
+                                has to offer
+                            </li>
+                            <li>Cooperated with other counselors on brainstorming field-trips and activities to keep
+                                children motivated
+                            </li>
+                            <li>Volunteered at local public schools</li>
+                        </ul>
+
+                    </div>
+                </div> <!-- end timeline__block -->
+
+            </div> <!-- end timeline -->
+        </div> <!-- end right -->
+
+    </div> <!-- end about-content timeline -->
+
+</section> <!-- end about -->
+
+
+<!-- works
+================================================== -->
+<section id="works" class="s-works target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full">
+            <h3>Personal Projects</h3>
+            <h1>See My Latest Projects.</h1>
+
+            <p class="lead">Im always working on new projects, be sure to come back and check!</p>
+        </div>
+    </div>
+
+    <div class="row masonry-wrap">
+        <div class="masonry">
+
+            <div class="masonry__brick">
+                <div class="item-folio">
+
+                    <div class="item-folio__thumb" style="height: 230px">
+                        <a href="https://numericalsite.herokuapp.com/" title="Numerical Site" data-size="1050x700">
+                            <img src="images/projects/vertigo.svg"
+                                 alt="">
+                            <span class="shadow-overlay"></span>
+                        </a>
+                    </div>
+
+                    <div class="item-folio__text">
+                        <div class="item-folio__caption">
+                            <h3>Finds Roots!</h3>
+                        </div>
+                        <h3 class="item-folio__title">
+                            Root Finder
+                        </h3>
+                        <p class="item-folio__cat">
+                            Python - Django
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <!-- end item-folio -->
+            </div>
+            <div class="masonry__brick">
+                <div class="item-folio">
+
+                    <div class="item-folio__thumb" style="height: 230px">
+                        <a href="https://whatsmygrade.herokuapp.com/" title="Whats My Grade" data-size="1050x700">
+                            <img src="images/projects/gradeapp.jpg"
+                                 alt="">
+                            <span class="shadow-overlay"></span>
+                        </a>
+                    </div>
+
+                    <div class="item-folio__text">
+                        <div class="item-folio__caption">
+                            <h3>What's My Grade!</h3>
+                        </div>
+                        <h3 class="item-folio__title">
+                            Grade/GPA Calculator!
+                        </h3>
+                        <p class="item-folio__cat">
+                            Java - Spring Boot
+                        </p>
+                    </div>
+
+
+                </div>
+            </div><!-- end masonry__brick -->
+
+
+        </div>
+    </div> <!-- end masonry -->
+
+</section> <!-- end works -->
+
+
+<!-- testimonials
+================================================== -->
+
+
+<!-- blog
+================================================== -->
+
+
+<!-- s-cta
+================================================== -->
+
+
+<!-- s-stats
+================================================== -->
+<section id="stats" class="s-stats">
+    <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
+
+        <div style="background-color: white" class="col-block stats__col ">
+            <div class="stats__count">
+                17520
+            </div>
+            <h4>Hours Coding</h4>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">
+                1000
+            </div>
+            <h4>Cups of Coffee</h4>
+        </div>
+        <div class="col-block stats__col stats__col--highlight">
+            <div class="stats__upsign">
+                <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+            </div>
+            <div class="stats__count">
+                35
+            </div>
+            <h4>Courses Completed</h4>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">
+                56
+            </div>
+            <h4>Books Read</h4>
+        </div>
+
+    </div>
+</section> <!-- end s-stats -->
+
+
+<!-- s-stats
+================================================== -->
+<section id="contact" class="s-contact target-section">
+
+    <div class="overlay"></div>
+
+    <div class="row narrow section-intro">
+        <div class="col-full">
+            <h3>Contact</h3>
+            <h1>Interested in learning more? Say Hello!</h1>
+
+            <p class="lead">If you have any questions, feel free to contact me using the form below.</p>
+        </div>
+    </div>
+
+    <div class="row contact__main">
+        <div class="col-eight tab-full contact__form">
+            <form name="contactForm" id="contactForm" method="POST"
+                  action="https://formspree.io/terry.hanoman@gmail.com">
+                <fieldset>
+
                     <div class="form-field">
-                        <input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                        <input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2"
+                               required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="email" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                        <input name="email" type="email" id="contactEmail" placeholder="Email" value="" required=""
+                               aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="_subject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                        <input name="_subject" type="text" id="contactSubject" placeholder="Subject" value=""
+                               class="full-width">
                     </div>
                     <div class="form-field">
-                        <textarea style="height: auto;" name="message" id="contactMessage" placeholder="message" rows="3" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        <textarea style="height: auto;" name="message" id="contactMessage" placeholder="message"
+                                  rows="3" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
                     <div class="form-field">
                         <button class="full-width btn--primary">Submit</button>
@@ -448,139 +476,146 @@
                             </div>
                         </div>
                     </div>
-    
-                    </fieldset>
-                </form>
 
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div> 
-            
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-                        
+                </fieldset>
+            </form>
+
+            <!-- contact-warning -->
+            <div class="message-warning">
+                Something went wrong. Please try again.
             </div>
-            <div class="col-four tab-full contact__infos">
-                <h4 class="h06">Phone</h4>
-                <p>Mobile: +1 (201)-469-6051
-                </p>
 
-                <h4 class="h06">Email</h4>
-                <p>terry.hanoman@gmail.com<br>
-                </p>
+            <!-- contact-success -->
+            <div class="message-success">
+                Your message was sent, thank you!<br>
+            </div>
 
-                <h4 class="h06">Address</h4>
-                <p>
+        </div>
+        <div class="col-four tab-full contact__infos">
+            <h4 class="h06">Phone</h4>
+            <p>Mobile: +1 (201)-469-6051
+            </p>
+
+            <h4 class="h06">Email</h4>
+            <p>terry.hanoman@gmail.com<br>
+            </p>
+
+            <h4 class="h06">Address</h4>
+            <p>
                 186 Custer Ave<br>
                 Jersey City, NJ<br>
                 07305 US
-                </p>
-            </div>
-
+            </p>
         </div>
 
-    </section> <!-- end s-contact -->
+    </div>
+
+</section> <!-- end s-contact -->
 
 
-    <!-- footer
-    ================================================== -->
-    <footer>
-        <div class="row">
-            <div class="col-full">
+<!-- footer
+================================================== -->
+<footer>
+    <div class="row">
+        <div class="col-full">
 
-                <div class="footer-logo">
-                    <a class="footer-site-logo" href="#0">th.</a>
-                </div>
+            <div class="footer-logo">
+                <a class="footer-site-logo" href="#0">th.</a>
+            </div>
 
-                <ul class="footer-social">
-                    <li><a class="footer-link" href="#0">
-                        <i class="im im-facebook" aria-hidden="true"></i>
-                        <span>Facebook</span>
-                    </a></li>
-                    <li><a class="footer-link" href="https://github.com/TerHano">
-                        <i class="im im-github" aria-hidden="true"></i>
-                        <span>Github</span>
-                    </a></li>
-                    <li><a class="footer-link" href="https://www.linkedin.com/in/terry-hanoman-90039b119">
-                        <i class="im im-linkedin" aria-hidden="true"></i>
-                        <span>LinkedIn</span>
-                    </a></li>
-                </ul>
-                    
+            <ul class="footer-social">
+<!--                <li><a class="footer-link" href="#0">-->
+<!--                    <i class="im im-facebook" aria-hidden="true"></i>-->
+<!--                    <span>Facebook</span>-->
+<!--                </a></li>-->
+                <li><a class="footer-link" href="https://github.com/TerHano">
+                    <i class="im im-github" aria-hidden="true"></i>
+                    <span>Github</span>
+                </a></li>
+                <li><a class="footer-link" href="https://www.linkedin.com/in/terry-hanoman-90039b119">
+                    <i class="im im-linkedin" aria-hidden="true"></i>
+                    <span>LinkedIn</span>
+                </a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="row footer-bottom">
+
+        <div class="col-twelve">
+            <div class="copyright">
+                <span>© Copyright Hola 2017</span>
+                <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
+                <span><a href="http://www.freepik.com">Thumbnails designed by rawpixel.com / Freepik</a></span>
+            </div>
+
+            <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up"
+                                                                           aria-hidden="true"></i></a>
             </div>
         </div>
 
-        <div class="row footer-bottom">
+    </div> <!-- end footer-bottom -->
 
-            <div class="col-twelve">
-                <div class="copyright">
-                    <span>© Copyright Hola 2017</span> 
-                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
-                    <span><a href="http://www.freepik.com">Thumbnails designed by rawpixel.com / Freepik</a></span>
-                </div>
-
-                <div class="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-        </div> <!-- end footer-bottom -->
-
-    </footer> <!-- end footer -->
+</footer> <!-- end footer -->
 
 
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+<!-- photoswipe background
+================================================== -->
+<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
 
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
 
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title=
+                        "Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title=
+                        "Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
                         </div>
                     </div>
                 </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
             </div>
-
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title=
+                    "Next (arrow right)"></button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
         </div>
 
-    </div><!-- end photoSwipe background -->
-
-    <div id="preloader">
-        <div id="loader"></div>
     </div>
 
+</div><!-- end photoSwipe background -->
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+<div id="preloader">
+    <div id="loader"></div>
+</div>
+
+
+<!-- Java Script
+================================================== -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 
